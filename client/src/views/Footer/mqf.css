@@ -1,0 +1,85 @@
+
+  
+  /* Media Queries */
+  
+  /* 320px — 480px: Mobile Devices */
+  @media screen and (max-width: 480px) {
+    footer{
+        position: absolute;
+        top: 5280px;
+        width: 100%;
+        margin-top: 15px;
+        overflow: hidden;
+        z-index: -1;
+      }
+      .footsmall{
+        display: none;
+        
+      }
+ 
+}
+
+@media screen and (min-width: 481px) and (max-width: 576px) {
+  footer{
+    position: absolute;
+    top: 5400px;
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .footsmall{
+    display: none;
+    
+  }
+
+}
+  /* 481px — 768px: Tablets */
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    footer{
+      position: absolute;
+      top: 2880px;
+      width: 100%;
+      margin-top: 15px;
+      overflow: hidden;
+      z-index: -1;
+    }
+    
+  }
+  
+  /* 769px — 1024px: Small Screens, Laptops */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    footer{
+      position: absolute;
+      top: 3000px;
+      width: 100%;
+      margin-top: 15px;
+      overflow: hidden;
+      z-index: -1;
+    }
+  }
+  
+  /* 1025px — 1200px: Desktops */
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    footer{
+      position: absolute;
+      top: 2400px;
+      width: 100%;
+      margin-top: 15px;
+      overflow: hidden;
+      z-index: -1;
+    } 
+  }
+  
+  /* 1201px and More: Extra Large Screens */
+  @media screen and (min-width: 1201px) {
+    footer{
+      position: absolute;
+      top: 1800px;
+      width: 100%;
+      margin-top: 15px;
+      overflow: hidden;
+      z-index: -1;
+    } 
+  }
+  

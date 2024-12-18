@@ -1,0 +1,163 @@
+
+  
+  /* Media Queries */
+  
+  
+  @media screen and (max-width: 480px) {
+    .shirt-container,.electronics-container ,.mobiles-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      grid-template-rows: repeat(1, 1fr); 
+      gap: 2px;
+    
+      width: 100%;
+      
+      background-color: white;
+      z-index: 999;
+      
+  }
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 10px;
+   
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 520px;
+    width: 220px;
+}
+.card img {
+  height: 322px;
+  width: 200px;
+  
+  padding-bottom: 7px;
+}
+.description {
+color: black;
+line-height: normal;
+margin-left: 10px;
+
+font-size: 14px;
+height: 50px;
+width: 198px;
+}
+.card .button-container {
+margin-top: 10px;
+margin-left: 20PX;
+}
+.pricep{
+margin-left: 5px;
+font-size: 12px;
+margin-right: 5px;
+}
+ 
+  }
+  
+    @media screen and (min-width: 481px) and (max-width: 576px) {
+      .shirt-container,.electronics-container ,.mobiles-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(9, 1fr); 
+        gap: 2px;
+      
+        width: 100%;
+        
+        background-color: white;
+        z-index: 999;
+        
+    }
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+     
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+      box-sizing: border-box;
+      text-align: center;
+      transition: transform 0.3s;
+      padding: 10px;
+     
+      margin-top: 60px;
+      margin-left: 40px;
+      height: 520px;
+      width: 220px;
+  }
+  .card img {
+    height: 322px;
+    width: 200px;
+    
+    padding-bottom: 7px;
+}
+.description {
+  color: black;
+  line-height: normal;
+  margin-left: 10px;
+  
+  font-size: 14px;
+  height: 50px;
+  width: 198px;
+}
+.card .button-container {
+  margin-top: 10px;
+  margin-left: 20PX;
+}
+.pricep{
+  margin-left: 5px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+    }
+  
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+        .shirt-container,.electronics-container ,.mobiles-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            grid-template-rows: repeat(5, 1fr); 
+            gap: 2px;
+          
+            width: 100%;
+            
+            background-color: white;
+            z-index: 999;
+            
+        }
+        
+    }
+    
+  
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      /* General styling for the container */
+.shirt-container,.electronics-container ,.mobiles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(5, 1fr); 
+    gap: 2px;
+  
+    width: 100%;
+    
+    background-color: white;
+    
+}
+
+
+
+    }
+    
+    
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+      
+    }
+    @media screen and (min-width: 1201px) and (max-width: 1399px) {
+      
+  }
+    
+    @media screen and (min-width: 1400px) {
+      
+    }
+    

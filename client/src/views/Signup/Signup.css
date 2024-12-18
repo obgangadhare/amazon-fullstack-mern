@@ -1,0 +1,75 @@
+.logo{
+    height:80px;
+    width:350px;
+    margin-left: 680px;
+    margin-top: 20px;
+}
+.myFrom{
+    height:580px;
+    width:420px;
+    margin:auto;
+ 
+    padding: 40px;
+    border: 0.3px solid rgba(0, 0, 0, 0.279);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.name{
+    height:27px;
+    width:340px;
+    margin-top: 11px;
+
+}
+.mobile{
+    height:27px;
+    width:340px;
+    margin-top: 11px;
+}
+.pass{
+    height:27px;
+    width:340px;
+    margin-top: 11px;
+    font-size: 13px;
+}
+.passag{
+    height:27px;
+    width:340px;
+    margin-top: 11px;
+}
+.button{
+    border:0;
+    height:35px;
+    width:350px;
+    margin-top: 28px;
+    background-color: #f2ca68;
+    color:black;
+    border-radius: 8px;
+    font-size: 17px;
+
+}
+.button:hover{
+    background-color: #efbf46;
+}
+p{
+    font-size: 13px;
+}
+.valid{
+    color:red;
+}
+
+.dlr{
+    color:.3498db;
+    font-size: 14px;
+}
+.v1{
+    color:red;
+}
+.v2{
+    color:red;
+}
+.message {
+    margin-top: 15px;
+    color: green;
+    margin-left: 80px;
+    font-size: 17px;
+  }

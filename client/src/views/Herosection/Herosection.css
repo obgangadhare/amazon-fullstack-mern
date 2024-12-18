@@ -1,0 +1,16 @@
+
+.carousel{
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    z-index: -1;
+   
+  }
+  .carousel-control-prev,.carousel-control-next{
+    height: 300px;
+    width: 100px;
+    z-index: 9999;
+    position: absolute;
+    top: 80px;
+  }

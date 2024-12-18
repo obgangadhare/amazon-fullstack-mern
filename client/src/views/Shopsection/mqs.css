@@ -1,0 +1,83 @@
+
+  
+  /* Media Queries */
+  
+  /* 320px — 480px: Mobile Devices */
+  @media screen and (max-width: 480px) {
+    .shopsec{
+        position: absolute;
+        top: 360px;
+       height: 1400px;
+        width: 100%;
+        background-color: rgba(232, 236, 239, 0.857);
+        z-index: -1;
+       
+    }
+ 
+}
+  /* 481px — 768px: Tablets */
+  @media screen and (min-width: 481px) and (max-width: 576px) {
+    .shopsec{
+      position: absolute;
+      top: 490px;
+     height: 1400px;
+      width: 100%;
+      background-color: rgba(232, 236, 239, 0.857);
+      z-index: -1;
+     
+  }
+
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    .shopsec{
+      position: absolute;
+      top: 405px;
+     height: 2800px;
+      width: 100%;
+      background-color: rgba(232, 236, 239, 0.857);
+      z-index: -1;
+     
+  }
+
+  }
+  
+  /* 769px — 1024px: Small Screens, Laptops */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .shopsec{
+      position: absolute;
+      top: 500px;
+     height: 2900px;
+      width: 100%;
+      background-color: rgba(232, 236, 239, 0.857);
+      z-index: -1;
+     
+  }
+  }
+  
+  /* 1025px — 1200px: Desktops */
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .shopsec{
+      position: absolute;
+      top: 500px;
+     height: 2000px;
+      width: 100%;
+      background-color: rgba(232, 236, 239, 0.857);
+      z-index: -1;
+     
+  } 
+  }
+  @media screen and (min-width: 1201px) and (max-width: 1399px) {
+  }
+  /* 1201px and More: Extra Large Screens */
+  @media screen and (min-width: 1400px) {
+    .shopsec{
+      position: absolute;
+      top: 500px;
+     height: 1700px;
+      width: 100%;
+      background-color: rgba(232, 236, 239, 0.857);
+      z-index: -1;
+     
+  }  
+  }
+  

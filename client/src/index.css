@@ -1,0 +1,9 @@
+.seemore1{
+  position: absolute;
+  top: 950px;
+  left: 50px;
+  z-index: 1;
+  
+  color: blue;
+  text-decoration: none;
+}

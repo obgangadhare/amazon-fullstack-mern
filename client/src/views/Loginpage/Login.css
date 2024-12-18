@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+.fulllog{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+
+.closebtn{
+    margin-left: 405px;
+  width: 25px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+
+#mid-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#m1 {
+    border: 0.009cm solid rgb(228, 223, 223);
+    border-style: ridge;
+    border-radius: 0.2cm;
+    align-items: center;
+}
+
+#m2{
+    margin: 25px;
+    color: black;
+}
+
+#si{
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.ema{
+    position: relative;
+    margin-top: 8px;
+}
+
+.ema label{
+    font-weight: 100;
+}
+
+.ema input{
+    width: 330px;
+    height: 25px;
+    border: 1px solid #d3c2c2;
+}
+
+.rem{
+    margin: 0.3cm;
+    margin-top: 20px;
+    font-size: 12px;
+    list-style-type: square;
+}
+
+.rem a
+{   
+    color: rgb(52, 121, 181);
+    text-decoration: unset;
+}
+
+#but {
+    background-color: #e2df22;
+    border: rgb(238, 177, 23);
+    border-radius: 0.2cm;
+    width: 330px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+#but:hover{
+    background-color: #e9ad15;
+    border: rgb(225, 167, 19);
+
+}
+
+.edd p{
+    font-size: 85%;
+    margin: 12px 0px 12px 0px;
+    font-weight: 100;
+    white-space: pre-line;
+}
+
+
+
+.help-section {
+    
+    margin: 10px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    font-size: 120px; 
+  }
+
+.content{
+    
+    font-size: 13px;
+}
+
+.but1 button{
+    background-color: transparent;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #a8acaf;
+    border-radius: 0.2cm;
+    width: 330px;
+    height: 30px;
+}
+
+.cont ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont ul li a{
+    color: #0066c0;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+img{
+    width: 120px;
+}
+
+.cont a {
+    margin: 10px;
+}
+
+.cont hr {
+    background-color: #f3f3f5;
+    color: #b6c4c7;
+    border: 1px solid rgb(238, 237, 234);
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#bw {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+#ba{
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.edd hr{
+    background-color: #f3f3f5;
+    color: #b6c4c7;
+    border: 1px solid rgb(238, 237, 234);
+    margin-top: 20px;
+    margin-bottom: 0;
+}*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+
+#mid-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#m1 {
+    border: 0.009cm solid rgb(228, 223, 223);
+    border-style: ridge;
+    border-radius: 0.2cm;
+    align-items: center;
+}
+
+#m2{
+    margin: 25px;
+}
+
+#si{
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.ema{
+    position: relative;
+    margin-top: 8px;
+}
+
+.ema label{
+    font-weight: 100;
+}
+
+.ema input{
+    width: 330px;
+    height: 25px;
+    border: 1px solid #d3c2c2;
+}
+
+.rem{
+    margin: 0.3cm;
+    margin-top: 20px;
+    font-size: 12px;
+    list-style-type: square;
+}
+
+.rem a
+{   
+    color: rgb(52, 121, 181);
+    text-decoration: unset;
+}
+
+#but {
+    background-color: #e2df22;
+    border: rgb(238, 177, 23);
+    border-radius: 0.2cm;
+    width: 330px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+#but:hover{
+    background-color: #e9ad15;
+    border: rgb(225, 167, 19);
+
+}
+
+.edd p{
+    font-size: 85%;
+    margin: 12px 0px 12px 0px;
+    font-weight: 100;
+    white-space: pre-line;
+}
+
+
+
+.help-section {
+    
+    margin: 10px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    font-size: 120px; 
+  }
+
+.content{
+    
+    font-size: 13px;
+}
+
+.but1 button{
+    background-color: transparent;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #a8acaf;
+    border-radius: 0.2cm;
+    width: 330px;
+    height: 30px;
+}
+
+.cont ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont ul li a{
+    color: #0066c0;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+img{
+    width: 120px;
+}
+
+.cont a {
+    margin: 10px;
+}
+
+.cont hr {
+    background-color: #f3f3f5;
+    color: #b6c4c7;
+    border: 1px solid rgb(238, 237, 234);
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#bw {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+#ba{
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.edd hr{
+    background-color: #f3f3f5;
+    color: #b6c4c7;
+    border: 1px solid rgb(238, 237, 234);
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+   .but23{
+    text-decoration: none;
+}
+.messagelogin{
+    margin-top: 5px;
+    color: green;
+    margin-left: 110px;
+    font-size: 17px;
+}

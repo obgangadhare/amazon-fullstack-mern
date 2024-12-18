@@ -1,0 +1,191 @@
+/* General styling for the container */
+.shirt-container,.electronics-container ,.mobiles-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 2px;
+  
+    width: 100%;
+    
+    background-color: white;
+    
+}
+
+/* Styling for each card */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 10px;
+   
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 520px;
+    width: 298px;
+}
+
+/* Hover effect for the card */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling */
+.card img {
+    height: 322px;
+    width: 264px;
+    cursor: pointer;
+    padding-bottom: 7px;
+}
+
+/* Title styling */
+.head12 {
+    height: 30px;
+    width: 200px;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Price styling */
+.price1234{
+    font-size: 25px;
+    color: rgba(168, 74, 11, 0.952);
+    
+   
+    
+}
+.pricep{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.pricep1{
+    margin-left: 20px;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+
+/* Description styling */
+.description {
+    color: black;
+    line-height: normal;
+    margin-left: 40px;
+    
+    font-size: 14px;
+    height: 50px;
+    width: 198px;
+}
+
+/* Button styling for adding/removing from cart */
+.card .button-container {
+    margin-top: 10px;
+    margin-left: 50PX;
+}
+
+.card button {
+    margin-left: 10px;
+    background-color: rgb(239, 239, 34);
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    margin-left: 10PX;
+}
+
+.card button:hover {
+    background-color: #f7ca00;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------------------------------------------------------- */
+.cardboxz{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.25s;
+    padding: 10px;
+   
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 520px;
+    width: 298px;
+    
+    
+    
+}
+.cardboxz:hover{
+    transform: scale(1.09);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.imgsizez{
+    height: 322px;
+    width: 274px;
+   cursor: pointer;
+   
+}
+
+.cardboxz:hover{
+  
+   transform: scale(1.02,1.02);
+    
+}
+
+
+.cardboxdescriptz{
+    color: black;
+    line-height: normal;
+    margin-left: 40px;
+    margin-top: 3px;
+    font-size: 16px;
+    height: 50px;
+    width: 198px;
+}
+.pricez{
+    height: 30px;
+    width: 50px;
+    color: brown;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 16px;
+    font-weight: 500;
+}
+.no{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(192, 41, 41, 0.795);
+}
+.button-container {
+    margin-top: 10px;
+}
+
+.button-container {
+    margin-left: 10px;
+    background-color: rgb(239, 239, 34);
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 10PX;
+}
+
+.button-container:hover {
+    background-color: #f7ca00;
+}

@@ -1,0 +1,9 @@
+.shopsec{
+    position: absolute;
+    top: 540px;
+   height: 1400px;
+    width: 100%;
+    background-color: rgba(232, 236, 239, 0.857);
+    z-index: -1;
+   
+}
