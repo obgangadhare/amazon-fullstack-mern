@@ -26,8 +26,8 @@ app.use((req, res) => {
 });
 
 
-const PORT = process.env.PORT || 5020;
-const MONGO_URI = process.env.MONGODB_URI || "mongodb+srv://obgangadhare:Omkar%401998@cluster1.etpty.mongodb.net/";
+const PORT = process.env.PORT ;
+const MONGO_URI = process.env.MONGODB_URI ;
 
 
 mongoose.connect(MONGO_URI)
